@@ -22,7 +22,7 @@
   }
 
 html{
-font-family: 'Roboto Slab', sans-serif;
+font-size: 100%;
 }
 
 @media(max-width: 1080px) {
@@ -37,6 +37,7 @@ font-family: 'Roboto Slab', sans-serif;
   }
 
 body {
+    font-family: 'Roboto Slab', sans-serif;
     -webkit-font-smoothing: antialiased;
     &.lockScroll {
       max-height: 100vh;
@@ -52,7 +53,9 @@ body {
     cursor: pointer;
   }
 
-  a {
+  a,
+  a:visited,
+  a:hover {
     text-decoration: none;
   }
 
@@ -60,14 +63,6 @@ body {
     list-style-type: none;
   }
 
-  input[type='date']::-webkit-inner-spin-button,
-  input[type='date']::-webkit-calendar-picker-indicator {
-    position: relative;
-    opacity: 0;
-    z-index: 5;
-  }
-
-  
 
   @media (max-width: 425px) {
     ::-webkit-scrollbar,
@@ -76,6 +71,39 @@ body {
       display: none;
     }
   }
+
+  // Text
+  h1,
+h2,
+h3 {
+  font-weight: 900;
+
+  line-height: 1.15;
+  
+  color: $blue900;
+  margin-top: 0px;
+}
+
+h1,h2{
+    font-size: $font-xl;
+}
+
+h3{
+    font-size: $font-lg;
+}
+
+p {
+    line-height: 1.5;
+  }
+
+
+
+  //Spacing
+
+  .container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
 
   //FlexBox
 

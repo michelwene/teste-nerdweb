@@ -1,0 +1,32 @@
+.header{
+    margin: 0 auto;
+    max-width: 88%;
+    width: 100%;
+
+    padding: 1rem 0;
+
+    div{
+       column-gap: 1.5rem;
+    }
+
+    &:nth-child(1){
+        a{
+            color: $green700;
+            font-weight: normal;
+        }
+
+        .logo{
+            padding-right: 2.05rem;
+        }
+    }
+
+    &:nth-child(2){
+        
+        div > select{
+            color: $black;
+            font-size: $font-xs;
+            text-transform: uppercase;
+        }
+    }
+
+}
