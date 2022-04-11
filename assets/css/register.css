@@ -13,6 +13,10 @@
 .register div{
     max-width: 40.375rem;
     margin-left: 4.8125rem;
+    padding-left: 2.1875rem;
+}
+
+.register h2{
 }
 
 .register p{
@@ -22,7 +26,7 @@
     line-height: 1.5rem;
     text-align: left;
 
-    margin: 1.5rem 0 3.75rem;
+    margin: 1.5rem 4.875rem 3.75rem 0;
 }
 
 .register button{
