@@ -1,0 +1,38 @@
+.register{
+    background: url('../../assets/images/bg time.png') center / cover no-repeat;
+
+    align-items: center;
+    display: flex;
+    flex:1;
+
+    height: 25.125rem;
+    margin: 5rem auto 0;
+    width: 88vw;
+}
+
+.register div{
+    max-width: 40.375rem;
+    margin-left: 4.8125rem;
+}
+
+.register p{
+    color: var(--blue800);
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-align: left;
+
+    margin: 1.5rem 0 3.75rem;
+}
+
+.register button{
+    max-width: 10.625rem;
+    padding: 0.625rem 2.1875rem;
+
+    background-color: var(--blue300);
+    border: 0 none;
+
+    font-size: 0.875rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}

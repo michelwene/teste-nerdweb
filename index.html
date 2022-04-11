@@ -19,10 +19,17 @@
       src="https://kit.fontawesome.com/a368087647.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./assets/css/globals.css" />
     <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/products.css" />
+    <link rel="stylesheet" href="./assets/css/services.css" />
+    <link rel="stylesheet" href="./assets/css/register.css" />
     <title>Nerd Web</title>
   </head>
   <body class="container">
@@ -79,8 +86,146 @@
       </header>
       <img
         src="./assets/images/banner.png"
+        class="search__banner"
         alt="Banner com uma pessoa sentada no sofá mexendo no notebook e ícone da Nerdweb sobrepondo a imagem"
       />
     </section>
+    <main class="app">
+      <div class="services">
+        <aside class="services__show">
+          <h1>
+            Descubra os serviços Nerdweb que
+            <span> mais combinam com a sua empresa </span>
+          </h1>
+          <button type="submit">ver serviços</button>
+        </aside>
+        <div>
+          <div class="services__more">
+            <div class="services__item">
+              <span class="services__icon route"></span>
+              <h4>Título</h4>
+              <p>Dolor sit amet, consetetur sadipscing elitr, sed</p>
+            </div>
+            <div class="services__item">
+              <span class="services__icon headset"></span>
+              <h4>Serviço</h4>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing</p>
+            </div>
+            <div class="services__item">
+              <span class="services__icon inventory"></span>
+              <h4>Exemplo</h4>
+              <p>Ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="products">
+        <h2>Conheça todos <span>produtos Nerdweb</span></h2>
+        <div class="swiper">
+          <div class="products__carrousel swiper-wrapper">
+            <div class="products__item swiper-slide">
+              <img
+                src="./assets/images/LAPTOP.png"
+                alt="foto de um laptop representando o produto SITES"
+              />
+              <p>sites</p>
+            </div>
+            <div class="products__item swiper-slide">
+              <img
+                src="./assets/images/PHONE.png"
+                alt="foto de um smartphone representando o produto e-commerce"
+              />
+              <p>e-commerce</p>
+            </div>
+            <div class="products__item swiper-slide">
+              <img
+                src="./assets/images/SHOP.png"
+                alt="foto de uma loja representando o produto redes"
+              />
+              <p>redes</p>
+            </div>
+            <div class="products__item swiper-slide">
+              <img
+                src="./assets/images/LAPTOP.png"
+                alt="foto de um laptop representando o produto SITES"
+              />
+              <p>sites</p>
+            </div>
+            <div class="products__item swiper-slide">
+              <img
+                src="./assets/images/PHONE.png"
+                alt="foto de um smartphone representando o produto e-commerce"
+              />
+              <p>e-commerce</p>
+            </div>
+            <div class="products__item swiper-slide">
+              <img
+                src="./assets/images/SHOP.png"
+                alt="foto de uma loja representando o produto redes"
+              />
+              <p>redes</p>
+            </div>
+            <div class="products__item swiper-slide">
+              <img
+                src="./assets/images/LAPTOP.png"
+                alt="foto de um laptop representando o produto SITES"
+              />
+              <p>sites</p>
+            </div>
+            <div class="products__item swiper-slide">
+              <img
+                src="./assets/images/PHONE.png"
+                alt="foto de um smartphone representando o produto e-commerce"
+              />
+              <p>e-commerce</p>
+            </div>
+            <div class="products__item swiper-slide">
+              <img
+                src="./assets/images/SHOP.png"
+                alt="foto de uma loja representando o produto redes"
+              />
+              <p>redes</p>
+            </div>
+            <div class="products__item swiper-slide">
+              <img
+                src="./assets/images/LAPTOP.png"
+                alt="foto de um laptop representando o produto SITES"
+              />
+              <p>sites</p>
+            </div>
+            <div class="products__item swiper-slide">
+              <img
+                src="./assets/images/PHONE.png"
+                alt="foto de um smartphone representando o produto e-commerce"
+              />
+              <p>e-commerce</p>
+            </div>
+            <div class="products__item swiper-slide">
+              <img
+                src="./assets/images/SHOP.png"
+                alt="foto de uma loja representando o produto redes"
+              />
+              <p>redes</p>
+            </div>
+          </div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+
+        <button type="button">ver todos produtos</button>
+      </div>
+      <div class="register">
+        <div>
+          <h2>Faça parte do nosso time de nerds</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua.
+          </p>
+          <button type="submit">cadastre-se</button>
+        </div>
+      </div>
+    </main>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./app/js/swiper.js" type="module"></script>
   </body>
 </html>
