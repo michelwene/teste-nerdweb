@@ -19,17 +19,22 @@
       src="https://kit.fontawesome.com/a368087647.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="/dist/style.css" />
+    <link rel="stylesheet" href="./assets/css/globals.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Nerd Web</title>
   </head>
   <body class="container">
-    <header class="header flex flex-ai-c flex-jc-sb">
-      <div class="flex">
+    <header class="header">
+      <div class="header__nav">
         <img src="./assets/images/logo.png" alt="nerdweb" class="logo" />
-        <a href="">Nerdweb</a><a href="">Serviços</a><a href="">Blog</a
-        ><a href="">Atendimento</a>
+        <a href="" class="nav__link">Nerdweb</a
+        ><a href="" class="nav__link">Serviços</a
+        ><a href="" class="nav__link">Blog</a
+        ><a href="" class="nav__link">Atendimento</a>
       </div>
-      <div class="flex flex-ai-c">
+      <div class="header__profile">
         <select>
           <option>dia a dia</option>
           <option>dia a dia</option>
@@ -51,5 +56,31 @@
         </a>
       </div>
     </header>
+    <section class="search">
+      <header class="search__header">
+        <nav class="search__nav">
+          <ul class="search__list">
+            <li class="list__link">sites</li>
+            <li><a href="" class="list__link">redes sociais</a></li>
+            <li><a href="" class="list__link">e-commerce</a></li>
+            <li><a href="" class="list__link">mídia online</a></li>
+            <li><a href="" class="list__link">landing pages</a></li>
+          </ul>
+          <div class="search__box">
+            <input
+              type="text"
+              placeholder="Digite sua pesquisa"
+              aria-label="Digite sua pesquisa"
+              class="search__input"
+            />
+            <i class="fa-solid fa-magnifying-glass search__icon"></i>
+          </div>
+        </nav>
+      </header>
+      <img
+        src="./assets/images/banner.png"
+        alt="Banner com uma pessoa sentada no sofá mexendo no notebook e ícone da Nerdweb sobrepondo a imagem"
+      />
+    </section>
   </body>
 </html>

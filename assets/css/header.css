@@ -1,0 +1,39 @@
+.header{
+    margin: 0 auto;
+    max-width: 88vw;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 0;
+}
+
+.header__nav{
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.nav__link{
+color: var(--green700);
+font-weight: normal;
+}
+
+.logo{
+    padding-right: 2.05rem;
+}
+
+.header__profile{
+    align-items: center;
+    column-gap: 1.5rem;
+    display:flex;
+    justify-content: space-between;
+}
+
+.header__profile select{
+    padding-right: 0.75rem;
+    border: 0 none;
+    text-transform: uppercase;
+    font-weight: 900;
+}
