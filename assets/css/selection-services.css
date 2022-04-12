@@ -91,4 +91,10 @@ line-height: 1.625rem;
     line-height: 1.1875rem;
 
     text-transform: uppercase;
+
+    transition: filter 0.5s;
+}
+
+.selection-service__description a:hover{
+filter: brightness(0.8);
 }

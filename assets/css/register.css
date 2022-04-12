@@ -39,4 +39,10 @@
     font-size: 0.875rem;
     font-weight: 900;
     text-transform: uppercase;
+
+    transition: filter 0.5s;
+}
+
+.register button:hover{
+    filter: brightness(0.8);
 }
