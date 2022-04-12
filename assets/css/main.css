@@ -62,6 +62,13 @@
     padding-right: 0.85rem;
     position: absolute;
     right: 0;
+
+    transition: filter 0.2s;
+}
+
+.search__icon:hover{
+    cursor: pointer;
+    filter: brightness(0.8);
 }
 
 .search__banner{
@@ -70,3 +77,15 @@
     object-fit: cover;
 }
 
+.target {
+    position: absolute;
+    border-bottom: 4px solid transparent;
+    z-index: 0;
+    transform: translateX(-60px);
+    cursor: pointer;
+}
+
+.search__nav a,
+.target {
+  transition: all .35s ease-in-out;
+}
