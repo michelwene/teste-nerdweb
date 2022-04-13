@@ -46,9 +46,8 @@
     color: var(--blue500);
     font-size: 0.875rem;
     line-height: 1.1875rem;
-}
 
-.footer__about--content p{
+    cursor: pointer;
     padding-bottom: 0.625rem;
 }
 
@@ -101,4 +100,45 @@ line-height: 1.625rem;
 .social__medias div i{
     color: var(--blue300);
     font-size: 1.875rem;
+
+    transition: opacity 0.2s;
+}
+
+.social__medias div i:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 468px){
+.footer__about{
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+
+    padding-bottom: 2rem;
+}
+
+.footer__about--content{
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.footer__about--content h4{
+    text-align: center;
+}
+
+.footer__about--content p{
+    text-align: center;
+}
+
+
+.footer__about--social{
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+
+.social__medias p{
+        text-align: center;
+    }
 }

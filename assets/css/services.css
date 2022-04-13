@@ -9,30 +9,8 @@
 
 .services__show{
     position: relative;
-    margin-right: 3.12rem;
+    margin-right: 2.375rem;
 }
-
-/* .services__show::after{
-    content: '';
-    height: 158px;
-    width: 15px;
-    border-left: 2px solid var(--blue300);
-    border-bottom-left-radius: 15px;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.services__show::before{
-    content: '';
-    height: 158px;
-    width: 15px;
-    border-left: 2px solid var(--blue300);
-    border-top-left-radius: 15px;
-    position: absolute;
-    top: 50%;
-    right: 0;
-} */
 
 .services__show h1 {
 
@@ -115,5 +93,10 @@ color: var(--blue500);
 font-size: 0.95rem;
 padding: 0 1.5rem 2.5rem;
 text-align: center;
+}
+
+.arrow__right{
+    max-height: 19.75rem;
+    padding-right: 3.5rem;
 }
 

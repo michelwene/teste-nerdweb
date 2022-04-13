@@ -107,6 +107,11 @@
         </aside>
         <div>
           <div class="services__more">
+            <img
+              src="./assets/images/arrow_right.png"
+              class="arrow__right"
+              alt="arrow_right"
+            />
             <div class="services__item">
               <span class="services__icon route"></span>
               <h4>Título</h4>
@@ -320,19 +325,25 @@
       <div class="newsletters__register">
         <form>
           <input
+            name="nome"
+            id="nome"
             type="text"
+            data-tipo="nome"
             placeholder="Nome"
             aria-placeholder="Digite seu nome"
             required
           />
           <input
+            name="email"
+            id="email"
             type="email"
+            data-tipo="email"
             placeholder="E-mail"
             aria-placeholder="Digite seu e-mail"
             required
             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
           />
-          <button type="submit">cadastrar</button>
+          <button id="btn-newsletter">cadastrar</button>
         </form>
       </div>
     </section>
@@ -359,7 +370,7 @@
             <h4>ATENDIMENTO</h4>
             <p>Dúvidas frequentes</p>
             <address>
-              <p>(41) 3333-3333</p>
+              <p><a href="tel:+41333333339">(41) 3333-3333</a></p>
               <a href="mailto:teste@nerdweb.com.br">teste@nerdweb.com.br</a>
             </address>
           </div>

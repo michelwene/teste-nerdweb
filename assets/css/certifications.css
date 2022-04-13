@@ -3,11 +3,17 @@
     display: flex;
     justify-content: center;
 
+    background: url('../images/arrow_bottom.png') top / 100% no-repeat;
+
     column-gap: 2rem;
     margin: 5rem auto 0;
-    padding: 0 2.8125rem 0 4.5rem;
+    padding: 5rem 2.8125rem 0 4.5rem;
 
     width: 88vw;
+}
+
+.certifications__description{
+    max-width: 50%;
 }
 
 .certifications__description h4{
@@ -30,6 +36,7 @@
 .certifications__icons{
     column-gap: 2.625rem;
     display: flex;
+    flex: 1;
 }
 
 .certifications__icons span {
