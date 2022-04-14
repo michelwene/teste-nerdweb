@@ -1,0 +1,73 @@
+
+@media screen and (max-width: 800px){
+  .menu-section{
+    order: 1;
+}
+
+    .menu-section.on{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+      
+        padding-left: 2.3125rem;
+        padding-top: 0.8125rem;
+        background-color:var(--gray800);
+        z-index: 10;
+        display: flex;
+    }
+
+    .menu-section.on::after{
+        content: '';
+        position: absolute;
+        top: 27%;
+        width: 88vw;
+        height: 1px;
+        background-color: var(--white);
+    }
+
+    .menu-section.on nav {
+          background: url('../../images/Grupo 549.png') top center / 100% no-repeat;
+        display: block;
+      }
+
+    .menu-section.on .menu-toggle {
+        position: absolute;
+        right: 25px;
+        top: 10px;
+      }
+
+    .menu-section.on .menu-toggle .one {
+        transform: rotate(45deg) translate(7px, 7px);
+        background-color: #fff;
+      }
+      
+    .menu-section.on .menu-toggle .two {
+        opacity: 0;
+      }
+
+    .menu-section.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(8px, -9px);
+        background-color: #fff;
+      }
+
+    .menu-section.on  nav ul {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          row-gap: 1rem;
+        
+          padding-bottom: 2.5rem;
+          margin-top: 5.25rem;
+        }
+        
+    .menu-section.on  nav ul a{
+          color: var(--white);
+        transition-duration: 0.5s;
+        font-size: 0.9375rem;
+        line-height: 1.125rem;
+        display: flex;
+        text-transform: uppercase;
+    }
+}

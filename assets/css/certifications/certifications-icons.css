@@ -1,0 +1,29 @@
+.certifications__icons{
+    column-gap: 2.625rem;
+    display: flex;
+    flex: 1;
+}
+
+.certifications__icons span {
+    display: inline-block;
+    height: 10rem;
+    width: 10rem;
+}
+
+@media screen and (max-width: 468px){
+    .certifications__icons{
+        flex-wrap: wrap;
+        margin-top: 1.5rem;
+    }
+
+    .certifications__icons span {
+        max-height: 5rem;
+        max-width: 5rem;
+    }
+}
+
+@media screen and (min-width: 993px){
+    .certifications__icons{
+        column-gap: 0;
+    }
+}

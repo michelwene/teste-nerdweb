@@ -7,138 +7,24 @@
     border-top: 4px solid var(--blue700);
 }
 
-.footer__about{
-    display: flex;
-    justify-content: space-between;
 
-    border-bottom: 2px solid var(--gray200);
-    margin: 2.6875rem auto 0;
-    padding-bottom: 8.375rem;
-    width: 88vw;
-
-
-}
 
 .logo__nerdweb{
-    background: url('../images/Grupo\ 549.png') center / cover no-repeat;
+    background: url('../images/Grupo 549.png') center / cover no-repeat;
     min-width: 5.5rem;
     min-height: 2.125rem;
 
     display:inline-block; 
 }
 
-.footer__about--content{
-    column-gap: 2.5rem;
-
-    display: flex;
-}
-
-.footer__about--content h4{
-    color: var(--blue100);
-    font-size: 1.125rem;
-    font-weight: 900;
-    line-height: 1.5rem;
-
-    padding-bottom: 1.25rem;
-}
-
-.footer__about--content p{
-    color: var(--blue500);
-    font-size: 0.875rem;
-    line-height: 1.1875rem;
-
-    cursor: pointer;
-    padding-bottom: 0.625rem;
-}
-
-.footer__about--content address{
-    color: var(--blue500);
-    font-size: 0.875rem;
-    line-height: 1.1875rem;
-}
-
-.footer__about--content address a{
-    color: var(--blue500);
-    font-size: 0.875rem;
-    line-height: 1.1875rem;
-    
-    margin-top: 0.625rem;
-}
-
 .opening-hours{
     color: var(--blue200) !important;
 }
 
-.footer__about--social{
-    display: flex;
-    justify-content: space-between;
 
-    margin: 1.25rem auto 0;
-    padding-bottom: 2.875rem;
-    width: 88vw;
-}
-
-.social__copyright p{
-    color: var(--gray200);
-    font-size: 0.875rem;
-    line-height: 1.1875rem;
-}
-
-.social__medias p{
-color: var(--blue300);
-font-size: 1.25rem;
-line-height: 1.625rem;
-}
-
-.social__medias div{
-    display: flex;
-    justify-content: space-around;
-
-    margin-top: 0.9375rem;
-}
-
-.social__medias div i{
-    color: var(--blue300);
-    font-size: 1.875rem;
-
-    transition: opacity 0.2s;
-}
-
-.social__medias div i:hover{
-    opacity: 0.5;
-    cursor: pointer;
-}
 
 @media screen and (max-width: 468px){
-.footer__about{
-    flex-direction: column;
-    align-items: center;
-    row-gap: 2rem;
-
-    padding-bottom: 2rem;
-}
-
-.footer__about--content{
-    align-items: center;
-    flex-direction: column;
-    row-gap: 1rem;
-}
-
-.footer__about--content h4{
-    text-align: center;
-}
-
-.footer__about--content p{
-    text-align: center;
-}
-
-
-.footer__about--social{
-        flex-direction: column;
-        row-gap: 2rem;
-    }
-
-.social__medias p{
-        text-align: center;
+    .footer{
+        margin-top: 3.75rem;
     }
 }

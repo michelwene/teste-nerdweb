@@ -12,39 +12,6 @@
     width: 88vw;
 }
 
-.certifications__description{
-    max-width: 50%;
-}
-
-.certifications__description h4{
-    font-weight: 900;
-    line-height: 1.3125rem;
-}
-
-.certifications__description p{
-    font-weight: 300;
-    font-size: 0.9375rem;
-    line-height: 1.5rem;
-
-    margin-top: 1.5rem;
-}
-
-.certifications__description p span{
-    font-weight: 700;
-}
-
-.certifications__icons{
-    column-gap: 2.625rem;
-    display: flex;
-    flex: 1;
-}
-
-.certifications__icons span {
-    display: inline-block;
-    height: 10rem;
-    width: 10rem;
-}
-
 .selo-wgc{
 background: url('../images/selo-wgc.png') center / cover no-repeat;
 }
@@ -55,4 +22,18 @@ background: url('../images/selo-wgc.png') center / cover no-repeat;
 
 .principle-3{
     background: url('../images/principle-3.png') center / cover no-repeat;
+}
+
+@media screen and (max-width: 468px){
+}
+
+@media screen and (max-width: 768px){
+}
+
+@media screen and (max-width: 992px){
+    .certifications{
+        flex-direction: column;
+        padding: 0;
+        padding-top: 2rem;
+    }
 }

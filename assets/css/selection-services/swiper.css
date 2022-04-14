@@ -1,0 +1,17 @@
+.btn-swiper{
+    color: var(--blue800);
+    background-color: var(--gray200);
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+}
+
+.swiper-button-prev::after{
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.swiper-button-next::after{
+    font-size: 1rem;
+    font-weight: 900;
+}

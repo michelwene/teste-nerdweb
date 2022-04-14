@@ -1,0 +1,11 @@
+.search__box{
+    position: relative;
+
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 468px){
+    .search__box{
+    }
+}

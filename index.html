@@ -25,26 +25,109 @@
     />
     <link rel="stylesheet" href="./assets/css/globals.css" />
     <link rel="stylesheet" href="./assets/css/header.css" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/header/close-menu.css" />
+    <link rel="stylesheet" href="./assets/css/header/header-nav.css" />
+    <link rel="stylesheet" href="./assets/css/header/header-profile.css" />
+    <link rel="stylesheet" href="./assets/css/header/header.css" />
+    <link rel="stylesheet" href="./assets/css/header/menu.css" />
+    <link rel="stylesheet" href="./assets/css/header/nav-link.css" />
+    <link rel="stylesheet" href="./assets/css/header/open-menu.css" />
+    <link rel="stylesheet" href="./assets/css/header/menu-section.css" />
+    <link rel="stylesheet" href="./assets/css/search.css" />
+    <link rel="stylesheet" href="./assets/css/search/search-box.css" />
+    <link rel="stylesheet" href="./assets/css/search/search-header.css" />
+    <link rel="stylesheet" href="./assets/css/search/search-icon.css" />
+    <link rel="stylesheet" href="./assets/css/search/search-input.css" />
+    <link rel="stylesheet" href="./assets/css/search/search-banner.css" />
+    <link rel="stylesheet" href="./assets/css/search/search-list.css" />
+    <link rel="stylesheet" href="./assets/css/search/search-nav.css" />
     <link rel="stylesheet" href="./assets/css/products.css" />
+    <link rel="stylesheet" href="./assets/css/products/products-carousel.css" />
+    <link rel="stylesheet" href="./assets/css/products/products-item.css" />
+    <link rel="stylesheet" href="./assets/css/products/swiper.css" />
     <link rel="stylesheet" href="./assets/css/services.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/services-styles/services-icon.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/services-styles/services-item.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/services-styles/services-more.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/services-styles/services-show.css"
+    />
     <link rel="stylesheet" href="./assets/css/register.css" />
     <link rel="stylesheet" href="./assets/css/selection-services.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/selection-services/selection-service__description.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/selection-services/selection-services__services.css"
+    />
+    <link rel="stylesheet" href="./assets/css/selection-services/swiper.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/selection-services/selection-services__item.css"
+    />
     <link rel="stylesheet" href="./assets/css/about.css" />
+    <link rel="stylesheet" href="./assets/css/about/about-description.css" />
     <link rel="stylesheet" href="./assets/css/certifications.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/certifications/certifications-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/certifications/certifications__description.css"
+    />
     <link rel="stylesheet" href="./assets/css/newsletter.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/newsletters/newsletters-description.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/newsletters/newsletters__register.css"
+    />
     <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/footer/footer-about.css" />
+    <link rel="stylesheet" href="./assets/css/footer/social-copyright.css" />
+    <link rel="stylesheet" href="./assets/css/footer/social-medias.css" />
     <title>Nerd Web</title>
   </head>
   <body class="container">
     <header class="header">
-      <div class="header__nav">
-        <img src="./assets/images/logo.png" alt="nerdweb" class="logo" />
-        <a href="" class="nav__link">Nerdweb</a
-        ><a href="" class="nav__link">Serviços</a
-        ><a href="" class="nav__link">Blog</a
-        ><a href="" class="nav__link">Atendimento</a>
+      <img src="./assets/images/logo.png" alt="nerdweb" class="logo" />
+      <div class="menu-section">
+        <div class="menu-toggle">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+        </div>
+        <nav class="header__nav">
+          <ul>
+            <li>
+              <a href="" class="nav__link">Nerdweb</a>
+            </li>
+            <li>
+              <a href="" class="nav__link">Serviços</a>
+            </li>
+            <li>
+              <a href="" class="nav__link">Blog</a>
+            </li>
+            <li>
+              <a href="" class="nav__link">Atendimento</a>
+            </li>
+          </ul>
+        </nav>
       </div>
       <div class="header__profile">
         <select>
@@ -90,11 +173,7 @@
         </nav>
         <span class="target"></span>
       </header>
-      <img
-        src="./assets/images/banner.png"
-        class="search__banner"
-        alt="Banner com uma pessoa sentada no sofá mexendo no notebook e ícone da Nerdweb sobrepondo a imagem"
-      />
+      <div class="search__banner"></div>
     </section>
     <main class="app">
       <div class="services">
@@ -105,35 +184,33 @@
           </h1>
           <button type="submit">ver serviços</button>
         </aside>
-        <div>
-          <div class="services__more">
-            <img
-              src="./assets/images/arrow_right.png"
-              class="arrow__right"
-              alt="arrow_right"
-            />
-            <div class="services__item">
+        <div class="swiper mySwiper3">
+          <div class="services__more swiper-wrapper">
+            <div class="services__item swiper-slide">
               <span class="services__icon route"></span>
               <h4>Título</h4>
               <p>Dolor sit amet, consetetur sadipscing elitr, sed</p>
             </div>
-            <div class="services__item">
+            <div class="services__item swiper-slide">
               <span class="services__icon headset"></span>
               <h4>Serviço</h4>
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing</p>
             </div>
-            <div class="services__item">
+            <div class="services__item swiper-slide">
               <span class="services__icon inventory"></span>
               <h4>Exemplo</h4>
               <p>Ipsum dolor sit amet, consetetur sadipscing elitr.</p>
             </div>
           </div>
+          <div class="swiper-button-next btn-swiper"></div>
+          <div class="swiper-button-prev btn-swiper"></div>
+          <button type="submit" class="btn-after-swiper">ver serviços</button>
         </div>
       </div>
       <div class="products">
         <h2>Conheça todos <span>produtos Nerdweb</span></h2>
         <div class="swiper">
-          <div class="products__carrousel swiper-wrapper">
+          <div class="products__carousel swiper-wrapper">
             <div class="products__item swiper-slide">
               <img
                 src="./assets/images/LAPTOP.png"
@@ -236,13 +313,13 @@
         </div>
       </div>
     </main>
-    <section class="selection-services">
+    <section class="selection-services swiper mySwiper2">
       <div>
         <h2>Seleção de Serviços</h2>
         <p>Conheça nossa seleção especial</p>
       </div>
-      <div class="selection-services__services">
-        <div class="selection-services__item">
+      <div class="selection-services__services swiper-wrapper">
+        <div class="selection-services__item swiper-slide">
           <span class="card-service"></span>
           <div class="selection-service__description">
             <h3>Serviço de teste de front-end</h3>
@@ -253,7 +330,7 @@
             <a href="">conhecer</a>
           </div>
         </div>
-        <div class="selection-services__item">
+        <div class="selection-services__item swiper-slide">
           <span class="card-service-1"></span>
           <div class="selection-service__description">
             <h3>Serviço de teste de front-end</h3>
@@ -264,7 +341,7 @@
             <a href="">conhecer</a>
           </div>
         </div>
-        <div class="selection-services__item">
+        <div class="selection-services__item swiper-slide">
           <span class="card-service-2"></span>
           <div class="selection-service__description">
             <h3>Serviço de teste de front-end</h3>
@@ -276,6 +353,7 @@
           </div>
         </div>
       </div>
+      <div class="swiper-scrollbar"></div>
     </section>
     <section class="about">
       <div class="about__description">

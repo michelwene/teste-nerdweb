@@ -1,0 +1,23 @@
+
+.search__list{
+    column-gap: 1rem;
+    display: flex;
+
+    font-size: 0.85rem;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 468px){
+}
+
+@media screen and (max-width: 768px){
+    .search__list{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .search__list{
+        font-size: 1rem;
+    }
+}

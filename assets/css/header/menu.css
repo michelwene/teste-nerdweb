@@ -1,0 +1,26 @@
+
+@media screen and (max-width: 800px){
+    .menu{
+        align-items: center;
+        color: var(--white);
+        background-color: var(--gray800);
+        flex-direction: column;
+        height: 100vh;
+        opacity: 0;
+        position: relative;
+        left: 0;
+        top:0;
+        transition: all 0.5s ease-in-out;
+        visibility: hidden;
+        width: calc(32.7rem - 12.5rem);
+        z-index: -2;
+    }
+    
+        nav .menu li{
+            width: 100vw;
+    }
+    
+        nav .menu li a {
+            color: var(--white);
+    }
+}    

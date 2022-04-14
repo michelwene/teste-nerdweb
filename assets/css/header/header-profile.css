@@ -1,0 +1,29 @@
+.header__profile{
+    align-items: center;
+    column-gap: 1.5rem;
+    display:flex;
+    justify-content: space-between;
+}
+
+.header__profile select{
+    padding-right: 0.75rem;
+    border: 0 none;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.header__profile img{
+    transition: filter 0.2s;
+}
+
+.header__profile img:hover{
+    filter: brightness(0.8);
+}
+
+
+@media screen and (max-width: 800px){
+
+    .header__profile select{
+        display: none;
+    }
+}    

@@ -17,84 +17,14 @@
     
 }
 
-.selection-services__services{
-    column-gap: 1.5rem;
-    display: flex;
-    margin-top: 2.5rem;
-
-    width: auto;
-}
-
-.selection-services__item{
-display: flex;
-flex-direction: column;
-
-}
-
-.selection-services__item .card-service{
-background: url('../../assets/images/Imagem card serviço.png') center / cover no-repeat;
-display: inline-block;
-
-width: 100%;
-max-width: auto;
-height: 17.6875rem;
-
-}
-
-.selection-services__item .card-service-1{
-    background: url('../../assets/images/Imagem card serviço-1.png') center / cover no-repeat;
-    display: inline-block;
-    
-    width: 100%;
-    max-width: auto;
-    height: 17.6875rem;
-    
-}
-
-.selection-services__item .card-service-2{
-    background: url('../../assets/images/Imagem card serviço-2.png') center / cover no-repeat;
-    display: inline-block;
-
-    width: 100%;
-    max-width: auto;
-    height: 17.6875rem;
-}
-
-.selection-service__description{
-    background-color: var(--gray800);
-
-    position: relative;
-    padding: 1.5rem 1.5rem 1.5rem 2.25rem;
-    top: -1.875rem;
-    width: auto;
-}
-
-.selection-service__description h3{
-color: var(--white);
-font-size: 1.25rem;
-font-weight: 900;
-line-height: 1.625rem;
-}
-
-.selection-service__description p{
-    color: var(--blue100);
-    font-weight: 300;
-    line-height: 1.3125rem;
-
-    margin: 1rem 0 2.5rem;
+@media screen and (min-width: 1920px){
+    .selection-services h2{
+        font-size: 2.6875rem;
     }
 
-.selection-service__description a{
-    color: var(--blue500);
-    font-weight: 900;
-    font-size: 1.1429rem;
-    line-height: 1.1875rem;
-
-    text-transform: uppercase;
-
-    transition: filter 0.5s;
+    .selection-services h2 + p{
+        font-size: 1.625rem;
+    }
 }
 
-.selection-service__description a:hover{
-filter: brightness(0.8);
-}
+

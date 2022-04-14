@@ -1,0 +1,53 @@
+.selection-service__description{
+    background-color: var(--gray800);
+
+    position: relative;
+    padding: 1.5rem 1.5rem 1.5rem 2.25rem;
+    top: -1.875rem;
+    width: auto;
+}
+
+.selection-service__description h3{
+color: var(--white);
+font-size: 1.25rem;
+font-weight: 900;
+line-height: 1.625rem;
+}
+
+.selection-service__description p{
+    color: var(--blue100);
+    font-weight: 300;
+    line-height: 1.3125rem;
+
+    margin: 1rem 0 2.5rem;
+}
+
+.selection-service__description a{
+    color: var(--blue500);
+    font-weight: 900;
+    font-size: 1.1429rem;
+    line-height: 1.1875rem;
+
+    text-transform: uppercase;
+
+    transition: filter 0.5s;
+}
+
+.selection-service__description a:hover{
+filter: brightness(0.8);
+}
+
+@media screen and (min-width: 1920px){
+    .selection-service__description h3{
+        font-size: 1.625rem;
+    }
+        
+    .selection-service__description p{
+        font-size: 1.3125rem;
+    }
+
+    .selection-service__description a{
+        font-size: 1.1875rem;
+    }
+}
+

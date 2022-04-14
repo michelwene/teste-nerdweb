@@ -1,0 +1,16 @@
+
+.search__header{
+    display: flex;
+    margin: 0 auto;
+
+    height: 72px;
+    width: 88vw;
+    
+}
+
+@media screen and (max-width: 468px){
+    .search__header{
+        margin: 0;
+        width: 100vw;
+    }
+}

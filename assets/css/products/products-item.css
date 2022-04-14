@@ -1,0 +1,35 @@
+.products__item p{
+    color: var(--gray700);
+
+text-align: center;
+text-transform: uppercase;
+padding-top: 0.75rem;
+padding-bottom: 0.5rem;
+}
+
+.products__item{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+    z-index: 100;
+    padding: 0.5rem;
+}
+
+.products__item:before{
+content: '';
+background-color: var(--gray200);
+
+height: 100%;
+position: absolute;
+width: 100%;
+z-index: -1;
+}
+
+@media screen and (min-width: 1920px){
+    .products__item p{
+    font-size: 1.1875rem;
+    }
+}

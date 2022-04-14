@@ -118,12 +118,3 @@ h3 {
 p {
     line-height: 1.5;
   }
-
-
-
-  /*Spacing*/
-
-  .container {
-    max-width: 120rem;
-    margin: 0 auto;
-}

@@ -1,0 +1,19 @@
+.search__input{
+    background-color: var(--blue900);
+    border: 1px solid var(--blue500);
+    border-radius: 0.5rem;
+    color: var(--white);
+    padding: 0.75rem 4.3rem 0.75rem 0.85rem;
+}
+
+.search__input::placeholder{
+    color: var(--blue200);
+    font-size: 0.85rem;
+    opacity: 50%;
+}
+
+@media screen and (min-width: 1920px){
+    .search__input::placeholder{
+        font-size: 1rem;
+    }
+}

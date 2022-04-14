@@ -1,0 +1,46 @@
+.selection-services__item{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.selection-services__item .card-service{
+    background: url('../../../assets/images/Imagem card serviço.png') center / cover no-repeat;
+    display: inline-block;
+    
+    width: 100%;
+    max-width: auto;
+    height: 17.6875rem;
+}
+    
+.selection-services__item .card-service-1{
+    background: url('../../../assets/images/Imagem card serviço-1.png') center / cover no-repeat;
+    display: inline-block;
+    
+    width: 100%;
+    max-width: auto;
+    height: 17.6875rem;
+}
+    
+.selection-services__item .card-service-2{
+    background: url('../../../assets/images/Imagem card serviço-2.png') center / cover no-repeat;
+    display: inline-block;
+
+    width: 100%;
+    max-width: auto;
+    height: 17.6875rem;
+}
+
+@media screen and (min-width: 1960px){
+    .selection-services__item .card-service{
+        background: url('../../images/Imagem card serviço@2x.png') center / cover no-repeat;
+    }
+
+    .selection-services__item .card-service-1{
+        background: url('../../images/Imagem card serviço-1@2x.png') center / cover no-repeat;
+    }
+
+    .selection-services__item .card-service-2{
+        background: url('../../images/Imagem card serviço-2@2x.png') center / cover no-repeat;
+    }
+}

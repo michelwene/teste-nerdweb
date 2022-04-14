@@ -1,0 +1,14 @@
+.search__icon{
+    color: var(--white);
+    font-size: 1.5rem;
+    padding-right: 0.85rem;
+    position: absolute;
+    right: 0;
+
+    transition: filter 0.2s;
+}
+
+.search__icon:hover{
+    cursor: pointer;
+    filter: brightness(0.8);
+}

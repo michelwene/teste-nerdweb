@@ -7,96 +7,20 @@
     width: 88vw;
 }
 
-.services__show{
-    position: relative;
-    margin-right: 2.375rem;
-}
-
-.services__show h1 {
-
-    }
-
-.services__show h1 span{
-color: var(--blue500);
-}
-
-.services__show button{
-    background-color: var(--blue300);
-    border: 0 none;
-
-    font-size: 0.9rem;
-    font-weight: 900;
-
-    margin-top: 2.5rem;
-    padding: 0.5rem 2.5rem;
-    text-transform: uppercase;
-
-    transition: filter 0.2s;
-    }
-    
-.services__show button:hover{
-    filter: brightness(0.8);
-}    
-
-
-
-.services__more{
-    display: flex;
-    column-gap: 1.5rem;
-}
-
-.services__item{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    box-shadow: 1px 3px 10px #00000014;
-    border-radius: 2px;
-}
-
-.services__item:hover{
-    box-shadow: 1px 3px 10px #00000014 inset;
-}
-
-.services__more .route{
-    display: inline-block;
-    background: url(../../assets/images/alt_route_black_24dp.svg) center / cover no-repeat;
-    height: 170px;
-    width: 170px;
-}
-
-.services__more .headset{
-    display: inline-block;
-    background: url(../../assets/images/headset_mic_black_24dp.svg) center / cover no-repeat;
-    height: 170px;
-    width: 170px;
-}
-
-.services__more .inventory{
-    display: inline-block;
-    background: url(../../assets/images/inventory_black_24dp.svg) center / cover no-repeat;
-    height: 170px;
-    width: 170px;
-}
-
-.services__icon{
-    padding-top: 1rem;
-}
-
-.services__item h4{
-    font-weight: 900;
-    padding-top: 1rem;
-    }
-
-.services__item p{
-font-size: 0.95rem;
-padding: 0 1.5rem 2.5rem;
-text-align: center;
-}
-
 .arrow__right{
     max-height: 19.75rem;
     padding-right: 3.5rem;
 }
 
+@media screen and (max-width: 468px){
+    .services{
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+.arrow__right{
+        display: none;
+    }
+}

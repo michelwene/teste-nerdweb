@@ -1,0 +1,38 @@
+.certifications__description{
+    max-width: 50%;
+}
+
+.certifications__description h4{
+    font-weight: 900;
+    line-height: 1.3125rem;
+}
+
+.certifications__description p{
+    font-weight: 300;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+
+    margin-top: 1.5rem;
+}
+
+.certifications__description p span{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 468px){
+    .certifications__description{
+        max-width: none;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 1960px){
+    .certifications__description h4{
+        font-size: 1.3125rem;
+    }
+
+    .certifications__description p{
+        font-size: 1.1875rem;
+    }
+}

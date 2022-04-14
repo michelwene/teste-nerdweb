@@ -1,0 +1,30 @@
+.search__nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+}
+
+.target {
+    position: absolute;
+    border-bottom: 4px solid transparent;
+    z-index: 0;
+    transform: translateX(-60px);
+    cursor: pointer;
+}
+
+.search__nav a,
+.target {
+  transition: all .35s ease-in-out;
+}
+
+
+@media screen and (max-width: 468px){
+}
+
+@media screen and (max-width: 768px){
+    .search__nav{
+        justify-content: center;        
+    }
+}

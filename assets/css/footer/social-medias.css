@@ -1,0 +1,46 @@
+.social__medias p{
+    color: var(--blue300);
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+}
+    
+.social__medias div{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 0.9375rem;
+}
+    
+.social__medias div i{
+    color: var(--blue300);
+    font-size: 1.875rem;
+
+    transition: opacity 0.2s;
+}
+    
+.social__medias div i:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 468px){
+}
+
+@media screen and (max-width: 768px){
+    .social__medias {
+    background-color: var(--gray800);
+    mix-blend-mode: multiply;
+    
+    padding: 1.125rem 0.875rem;
+    }
+    
+    .social__medias p{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1960px){
+    .social__medias p{
+        font-size: 1.625rem;
+    }
+}

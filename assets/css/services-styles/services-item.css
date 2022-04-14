@@ -1,0 +1,33 @@
+.services__item{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    box-shadow: 1px 3px 10px #00000014;
+    border-radius: 2px;
+}
+
+.services__item:hover{
+    box-shadow: 1px 3px 10px #00000014 inset;
+}
+
+.services__item h4{
+    font-weight: 900;
+    padding-top: 1rem;
+}
+
+.services__item p{
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 1920px){
+    .services__item h4{
+        font-size: 1.3125rem;
+    }
+
+    .services__item p{
+        font-size: 1.25rem;
+    }
+}

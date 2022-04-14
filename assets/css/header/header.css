@@ -1,0 +1,22 @@
+.header{
+    background-color: var(--white);
+    margin: 0 auto;
+    max-width: 88vw;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 0;
+}
+
+@media screen and (max-width: 468px){
+    .header{
+        justify-content: space-around;
+    }
+
+    .openMenu i{
+        font-size: 2rem;
+    }
+}

@@ -16,8 +16,7 @@
     padding-left: 2.1875rem;
 }
 
-.register h2{
-}
+
 
 .register p{
     color: var(--blue800);
@@ -30,7 +29,6 @@
 }
 
 .register button{
-    max-width: 10.625rem;
     padding: 0.625rem 2.1875rem;
 
     background-color: var(--blue300);
@@ -45,4 +43,34 @@
 
 .register button:hover{
     filter: brightness(0.8);
+}
+
+@media screen and (max-width: 468px){
+    .register div{
+        margin-left: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .register p{
+        margin-right: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1960px){
+    .register{
+        background: url('../../assets/images/bg time@2x.png') center / cover no-repeat;
+    }
+    .register h2{
+        font-size: 2.6875rem;
+    }
+
+    .register p{
+        font-size: 1.5rem;
+    }
+
+    .register button{
+        font-size: 1.1875rem;
+    }
 }

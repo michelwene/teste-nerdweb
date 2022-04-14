@@ -1,0 +1,17 @@
+nav .openMenu {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 468px){
+    .openMenu i{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+    nav .openMenu {
+        display: block;
+    }
+}

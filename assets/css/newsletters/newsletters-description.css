@@ -1,0 +1,43 @@
+.newsletters__description{
+    max-width: 19.5rem;
+    }
+    
+    .newsletters__description h2 {
+        font-size: 2rem;
+        line-height: 2.375rem;
+    }
+    
+    .newsletters__description p {
+        color: var(--blue500);
+        font-size: 1.2rem;
+        line-height: 1.625rem;
+    }
+
+    
+@media screen and (max-width: 468px){
+    
+    .newsletters__description{
+        max-width: none;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    
+    .newsletters__description h2 {
+        font-size: 1.0625rem;
+    }
+    
+    .newsletters__description p {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (min-width: 1960px){
+    .newsletters__description h2 {
+        font-size: 2.375rem;
+    }
+
+    .newsletters__description p {
+        font-size: 1.625rem;
+        margin-top: 1rem;
+    }
+}

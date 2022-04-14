@@ -1,0 +1,27 @@
+
+.search__banner{
+    background: url('../../../assets/images/banner.png') center / cover no-repeat;
+    width: 100%;
+}
+
+@media screen and (min-width: 320px){
+    .search__banner{
+        background: url('../../../assets/images/banner_mobile.png') center / cover no-repeat;
+        min-height: 31.25rem;
+    }
+}
+    
+@media screen and (min-width: 1020px){
+    .search__banner{
+        background: url('../../../assets/images/banner.png') center / cover no-repeat;
+        min-height: 40.8125rem;
+    }
+}
+
+@media screen and (min-width: 1960px){
+    .search__banner{
+        background: url('../../../assets/images/banner@2x.png') center / cover no-repeat;
+        min-height: 40.8125rem;
+    }
+}
+

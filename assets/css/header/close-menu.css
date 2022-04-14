@@ -1,0 +1,15 @@
+nav .mainMenu .closeMenu {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px){
+    nav .mainMenu .closeMenu {
+        color: var(--white);
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+}

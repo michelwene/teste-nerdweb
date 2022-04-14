@@ -1,0 +1,4 @@
+.header__nav ul{
+    display: flex;
+    column-gap: 1.75rem;
+}

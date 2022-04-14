@@ -1,0 +1,8 @@
+.products__carousel{
+    background-color: var(--gray50);
+    display: flex;
+    margin-top: 2.5rem;
+    padding: 1.25rem;
+
+    min-width: 4120px;
+}

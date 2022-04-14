@@ -1,0 +1,59 @@
+.about__description{
+    margin-left: 6.8125rem;
+
+    max-width: 37.9375rem;
+}
+
+.about__description h3{
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 2.375rem;
+}
+
+.about__description p{
+    color: var(--blue300);
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+
+    margin: 1rem 0 2.5rem 0;
+}
+
+.about__description button{
+    background-color: var(--blue700);
+    border: 0 none;
+    color: var(--white);
+    font-size: 0.875rem;
+    font-weight: 900;
+    line-height: 1.1875rem;
+    text-transform: uppercase;
+
+    padding: 0.625rem 2.1875rem;
+
+    transition: filter 0.2s;
+}
+
+.about__description button:hover{
+    filter: brightness(0.8);
+}
+
+@media screen and (max-width: 468px){
+    .about__description{
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .about__description h3{
+        font-size: 2.375rem;
+    }
+
+    .about__description p{
+        font-size: 1.625rem;
+    }
+
+    .about__description button{
+        font-size: 1.1875rem;
+    }
+}

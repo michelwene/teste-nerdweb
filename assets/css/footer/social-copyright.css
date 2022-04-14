@@ -1,0 +1,11 @@
+.social__copyright p{
+    color: var(--gray200);
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+}
+
+@media screen and (min-width: 1960px){
+    .social__copyright p{
+        font-size: 1.1875rem;
+    }
+}
