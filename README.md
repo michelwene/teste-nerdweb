@@ -67,8 +67,8 @@ Pretendo continuar fazendo projetos de desafios entre outros.
 
 - [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - A documentação do Developer Mozilla é essencial para compreender as funções e conseguir aplicar as mesmas no projeto.
 
-- [Swiper](https://swiperjs.com/swiper-api#initialize-swiper)
-- Documentação do Swiper para utilização do carrossel.
+- [Swiper](https://swiperjs.com/swiper-api#initialize-swiper) - Documentação do Swiper para utilização do carrossel.
+
 
 ## :medal_military: Autor
 
